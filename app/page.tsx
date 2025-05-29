@@ -9,54 +9,13 @@ import {
   TrendingUp,
   Calendar,
 } from "lucide-react";
+import Header from "@/components/sections/Header";
 
 export default function Component() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 bg-white">
-        <div className="flex items-center space-x-2">
-          <Image
-            src="/logo.svg"
-            alt="Nexcent Logo"
-            width={35}
-            height={24}
-            className="object-contain"
-          />
-
-          <span className="text-xl font-bold text-gray-800">Nexcent</span>
-        </div>
-
-        <nav className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-gray-600 hover:text-gray-800">
-            Home
-          </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
-            Service
-          </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
-            Feature
-          </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
-            Product
-          </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
-            Testimonial
-          </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
-            FAQ
-          </a>
-        </nav>
-
-        <div className="flex items-center space-x-4">
-          <Button variant="ghost" className="text-green-500">
-            Login
-          </Button>
-          <Button className="bg-green-500 hover:bg-green-600 text-white">
-            Sign up
-          </Button>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <section className="bg-gray-50 px-6 py-16">

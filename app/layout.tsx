@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "CloneFigma App",
-  description: "Develop by Imtiaz",
+  description: "Website clone from Figma design",
 };
 
 export default function RootLayout({
