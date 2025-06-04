@@ -4,8 +4,8 @@ import { ArrowRight } from "lucide-react";
 
 function TestimonialSection() {
   return (
-    <section className="py-16 px-6 bg-gray-800">
-      <div className="max-w-6xl mx-auto flex items-center">
+    <section className="bg-gray-50">
+      <div className="wrapper py-8 mx-auto flex items-center">
         <div className="flex-1">
           <Image
             src="/placeholder.svg?height=300&width=300"
@@ -15,14 +15,14 @@ function TestimonialSection() {
             className="object-contain"
           />
         </div>
-        <div className="flex-1 pl-12 text-white">
+        <div className="flex-1 pl-12">
           <p className="text-lg mb-6">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             sagittis ipsum. Nullam lacinia tincidunt ullamcorper. Mauris a
-            lacinia lorem, vel suscipit ante. Pellentesque non tincidunt
-            tortor. Integer pellentesque quam vel velit dapibus, ut finibus
-            massa gravida.
+            lacinia lorem, vel suscipit ante. Pellentesque non tincidunt tortor.
+            Integer pellentesque quam vel velit dapibus, ut finibus massa
+            gravida.
           </p>
           <div className="mb-8">
             <div className="font-bold">Tim Smith</div>

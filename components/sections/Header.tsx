@@ -22,7 +22,7 @@ function Header() {
         />
       </div>
 
-      <nav className="hidden w-[425px] h-[30px] lg:flex items-center space-x-8">
+      <nav className="hidden w-[425px] h-[30px] xl:flex items-center space-x-8">
         <a
           href="#"
           className="font-medium text-base leading-6 tracking-normal text-gray-600 hover:text-gray-800"

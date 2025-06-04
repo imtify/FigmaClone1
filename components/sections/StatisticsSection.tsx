@@ -4,7 +4,7 @@ import { Users, Building, TrendingUp, Calendar } from "lucide-react";
 function StatisticsSection() {
   return (
     <section className="bg-gray-50">
-      <div className="wrapper max-w-6xl mx-auto flex items-center">
+      <div className="wrapper py-16 mx-auto flex items-center">
         <div className="flex-1">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Helping a local

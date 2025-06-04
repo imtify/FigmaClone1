@@ -3,8 +3,8 @@ import { ArrowRight } from "lucide-react";
 
 function FinalCTASection() {
   return (
-    <section className="py-16 px-6 bg-gray-50 text-center">
-      <div className="max-w-4xl mx-auto">
+    <section className="bg-gray-50 text-center">
+      <div className="wrapper py-8 mx-auto">
         <h2 className="text-4xl font-bold text-gray-800 mb-8">
           Pellentesque suscipit
           <br />
