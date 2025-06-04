@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between max-w-[1440px] h-[84px] mx-auto px-6 py-4 bg-white">
+    <header className="flex items-center justify-between wrapper h-[84px] mx-auto bg-white">
       <div className="flex items-center space-x-2">
         <Image
           src="/logo.svg"
@@ -22,7 +22,7 @@ function Header() {
         />
       </div>
 
-      <nav className="hidden w-[425px] h-[30px] lg:flex items-center space-x-8 font-inter">
+      <nav className="hidden w-[425px] h-[30px] lg:flex items-center space-x-8">
         <a
           href="#"
           className="font-medium text-base leading-6 tracking-normal text-gray-600 hover:text-gray-800"

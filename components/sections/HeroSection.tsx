@@ -3,17 +3,17 @@ import { Button } from "@/components/ui/button";
 
 function HeroSection() {
   return (
-    <section className="bg-gray-50 px-6 py-16">
-      <div className="max-w-6xl mx-auto flex items-center justify-between">
+    <section className="bg-gray-50">
+      <div className="wrapper h-[599px] flex items-center gap-[72px] justify-between">
         <div className="flex-1 max-w-lg">
-          <h1 className="text-5xl font-bold text-gray-800 leading-tight mb-4">
+          <h1 className="font-semibold sm:text-[64px] sm:leading-[76px] text-4xl tracking-normal text-gray-800 mb-4">
             Lessons and insights{" "}
             <span className="text-green-500">from 8 years</span>
           </h1>
-          <p className="text-gray-600 mb-8">
+          <p className="font-normal text-base leading-6 tracking-normal text-gray-600 mb-8">
             Where to grow your business as a photographer: site or social media?
           </p>
-          <Button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3">
+          <Button className="w-[128px] h-[52px] gap-[10px] p-[14px_32px] rounded-md bg-green-500 hover:bg-green-600 text-base text-white">
             Register
           </Button>
         </div>
@@ -29,13 +29,13 @@ function HeroSection() {
           </div>
         </div>
       </div>
+      <div className="flex justify-center py-4 space-x-2">
+        <div className="w-2.5 h-2.5 bg-green-500 rounded-full"></div>
+        <div className="w-2.5 h-2.5 bg-gray-300 rounded-full"></div>
+        <div className="w-2.5 h-2.5 bg-gray-300 rounded-full"></div>
+      </div>
 
       {/* Pagination dots */}
-      <div className="flex justify-center mt-12 space-x-2">
-        <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-        <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
-        <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
-      </div>
     </section>
   );
 }
