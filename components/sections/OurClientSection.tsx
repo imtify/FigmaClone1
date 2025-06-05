@@ -1,4 +1,5 @@
 import React from "react";
+import { clients } from "@/app/data"; // Adjust the import path as necessary
 
 function OurClientSection() {
   return (
@@ -12,8 +13,14 @@ function OurClientSection() {
         </p>
 
         <div className="flex flex-wrap justify-center items-center space-x-12 opacity-60">
-          {[1, 2, 3, 4, 5, 6, 7].map((i) => (
-            <div key={i} className="w-12 h-12 bg-gray-300 rounded"></div>
+          {clients.map((client, i) => (
+            <div key={i} className="w-12 h-12 flex items-center justify-center">
+              <img
+                src={client.src}
+                alt={client.alt}
+                className="object-contain w-full h-full"
+              />
+            </div>
           ))}
         </div>
       </div>
