@@ -9,7 +9,8 @@ const posts = [
     image: "/placeholder.svg?height=200&width=300",
   },
   {
-    title: "What are your safeguarding responsibilities and how can you manage them?",
+    title:
+      "What are your safeguarding responsibilities and how can you manage them?",
     image: "/placeholder.svg?height=200&width=300",
   },
   {
@@ -22,14 +23,12 @@ function BlogSection() {
   return (
     <section className="py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">
-          Caring is the new marketing
-        </h2>
+        <h2 className="text-3xl font-bold mb-4">Caring is the new marketing</h2>
         <p className="text-gray-600 mb-12">
-          The Nexcent blog is the best place to read about the latest
-          membership insights, trends and more. See who's joining the
-          community, read about how our community are increasing their
-          membership income and lot's more.
+          The Nexcent blog is the best place to read about the latest membership
+          insights, trends and more. See who's joining the community, read about
+          how our community are increasing their membership income and lot's
+          more.
         </p>
         <div className="grid md:grid-cols-3 gap-8">
           {posts.map((post, i) => (
@@ -42,7 +41,7 @@ function BlogSection() {
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-6 text-center">
-                <h3 className="font-bold text-gray-800 mb-4">{post.title}</h3>
+                <h3 className="font-bold mb-4">{post.title}</h3>
                 <Button
                   variant="ghost"
                   className="text-green-500 hover:text-green-600"

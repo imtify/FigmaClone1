@@ -16,7 +16,7 @@ function TestimonialSection() {
           />
         </div>
         <div className="flex-1 pl-12">
-          <p className="text-lg mb-6">
+          <p className="text-lg text-gray-600 mb-6">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             sagittis ipsum. Nullam lacinia tincidunt ullamcorper. Mauris a

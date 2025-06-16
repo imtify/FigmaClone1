@@ -5,7 +5,7 @@ function FinalCTASection() {
   return (
     <section className="bg-gray-50 text-center">
       <div className="wrapper py-8 mx-auto">
-        <h2 className="text-4xl font-bold text-gray-800 mb-8">
+        <h2 className="text-4xl font-bold mb-8">
           Pellentesque suscipit
           <br />
           fringilla libero eu.

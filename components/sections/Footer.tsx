@@ -13,7 +13,7 @@ function Footer() {
               </div>
               <span className="text-xl font-bold">Nexcent</span>
             </div>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-600 mb-4">
               Copyright © 2020 Nexcent ltd.
               <br />
               All rights reserved

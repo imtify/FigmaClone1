@@ -11,7 +11,7 @@ function StatisticsSection() {
             <br />
             <span className="text-green-500">business reinvent itself</span>
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 mb-8">
             We reached here with our hard work and dedication
           </p>
         </div>
