@@ -5,21 +5,21 @@ import { Button } from "@/components/ui/button";
 function PixelGradeSection() {
   return (
     <section className="wrapper">
-      <div className="max-w-6xl mx-auto flex items-center">
-        <div className="flex-1">
+      <div className="max-w-6xl mx-auto flex gap-[50px] items-center">
+        <div className="flex-1 max-w-[442px]">
           <Image
-            src="/placeholder.svg?height=400&width=400"
+            src="/Pixelgrade.png"
             alt="Pixelgrade illustration"
-            width={400}
-            height={400}
+            width={442}
+            height={433}
             className="object-contain"
           />
         </div>
-        <div className="flex-1 pl-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">
+        <div className="flex-1 pr-[60px]">
+          <h2 className="text-4xl leading-[44px] font-semibold text-gray-800 mb-6">
             The unseen of spending three years at Pixelgrade
           </h2>
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 text-[14px] leading-[20px] mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
             amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
             Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
