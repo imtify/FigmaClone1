@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 function HeroSection() {
   return (
     <section className="bg-gray-50">
-      <div className="wrapper h-[599px] flex items-center gap-[72px] justify-between">
-        <div className="flex-1 max-w-lg">
+      <div className="wrapper py-[96px] h-[599px] flex items-center gap-[72px] justify-between">
+        <div className="flex-1 max-w-[657px]">
           <h1 className="font-semibold sm:text-[64px] sm:leading-[76px] text-4xl tracking-normal text-gray-800 mb-4">
             Lessons and insights{" "}
             <span className="text-green-500">from 8 years</span>
@@ -17,13 +17,13 @@ function HeroSection() {
             Register
           </Button>
         </div>
-        <div className="flex-1 flex justify-center">
+        <div className="flex-2 flex justify-center">
           <div className="relative">
             <Image
               src="/Hero.png"
               alt="Hero illustration"
-              width={500}
-              height={400}
+              width={391}
+              height={407}
               className="object-contain"
             />
           </div>

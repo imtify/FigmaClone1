@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 function FooterDesignSection() {
   return (
-    <section className="py-16 px-6 bg-gray-50">
+    <section className="wrapper bg-white">
       <div className="max-w-6xl mx-auto flex items-center">
         <div className="flex-1">
           <Image
@@ -15,7 +15,7 @@ function FooterDesignSection() {
           />
         </div>
         <div className="flex-1 pl-12">
-          <h2 className="text-3xl font-bold mb-6">
+          <h2 className="text-gray-800 text-3xl font-bold mb-6">
             How to design your site footer like we did
           </h2>
           <p className="text-gray-600 mb-8">
