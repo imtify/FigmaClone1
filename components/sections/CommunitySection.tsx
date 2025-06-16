@@ -5,7 +5,7 @@ import { Users, Building, Globe } from "lucide-react";
 function CommunitySection() {
   return (
     <section className="wrapper bg-white">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">
           Manage your entire community
           <br />

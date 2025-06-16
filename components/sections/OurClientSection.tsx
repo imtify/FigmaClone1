@@ -3,8 +3,8 @@ import { clients } from "@/app/data"; // Adjust the import path as necessary
 
 function OurClientSection() {
   return (
-    <section className="wrapper">
-      <div className="mx-auto text-center">
+    <section className="wrapper h-[190px]">
+      <div className="text-center">
         <h2 className="text-4xl font-semibold leading-[44px] text-gray-800 mb-4">
           Our Clients
         </h2>
@@ -12,7 +12,7 @@ function OurClientSection() {
           We have been working with some Fortune 500+ clients
         </p>
 
-        <div className="flex flex-wrap justify-center items-center space-x-12 opacity-60">
+        <div className="flex flex-wrap sm:flex-nowrap justify-center items-center space-x-[40px] md:space-x-[80px] 2xl:space-x-[140px] opacity-60">
           {clients.map((client, i) => (
             <div key={i} className="w-12 h-12 flex items-center justify-center">
               <img
