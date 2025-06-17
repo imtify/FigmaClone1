@@ -31,7 +31,7 @@ function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center pt-16 space-x-2">
+        <div className="flex justify-center pt-[70px] space-x-2">
           <div className="w-2.5 h-2.5 bg-green-500 rounded-full"></div>
           <div className="w-2.5 h-2.5 bg-gray-300 rounded-full"></div>
           <div className="w-2.5 h-2.5 bg-gray-300 rounded-full"></div>
