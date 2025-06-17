@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 function PixelGradeSection() {
   return (
-    <section className="wrapper">
-      <div className="max-w-6xl mx-auto flex gap-[50px] items-center">
+    <section className="wrapper h-[433px]">
+      <div className="mx-auto flex gap-[50px] items-center">
         <div className="flex-1 max-w-[442px]">
           <Image
             src="/Pixelgrade.png"

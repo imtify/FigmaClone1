@@ -28,7 +28,7 @@ function Card({
 
 function CommunitySection() {
   return (
-    <section className="wrapper bg-white">
+    <section className="wrapper h-[416px]">
       <div className="mx-auto text-center">
         <h2 className="text-4xl leading-[44px] font-semibold text-gray-800 mb-4">
           Manage your entire community
