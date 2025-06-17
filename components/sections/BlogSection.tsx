@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
+import { blogPosts } from "@/app/data";
 
 const posts = [
   {
@@ -21,9 +22,9 @@ const posts = [
 
 function BlogSection() {
   return (
-    <section className="py-16 px-6">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-gray-800 text-3xl font-bold mb-4">
+    <section className="wrapper">
+      <div className="mx-auto text-center">
+        <h2 className="text-gray-800 text-4xl leading-[44px] font-semibold mb-4">
           Caring is the new marketing
         </h2>
         <p className="text-gray-600 mb-12">
@@ -32,21 +33,23 @@ function BlogSection() {
           how our community are increasing their membership income and lot's
           more.
         </p>
-        <div className="grid md:grid-cols-3 gap-8">
-          {posts.map((post, i) => (
+        <div className="flex flex-col xl:flex-row gap-8">
+          {blogPosts.map((post, i) => (
             <Card key={i} className="overflow-hidden">
               <Image
                 src={post.image || "/placeholder.svg"}
                 alt={post.title}
-                width={300}
-                height={200}
-                className="w-full h-48 object-cover"
+                width={368}
+                height={286}
+                className="object-cover"
               />
-              <CardContent className="p-6 text-center">
-                <h3 className="text-gray-800 font-bold mb-4">{post.title}</h3>
+              <CardContent className="p-6 w-[317px] h-[176px] text-center">
+                <h3 className="text-gray-800 text-[20px] leading-[28px] font-semibold mb-4">
+                  {post.title}
+                </h3>
                 <Button
                   variant="ghost"
-                  className="text-green-500 hover:text-green-600"
+                  className="text-[20px] leading-[28px] font-semibold text-green-500 hover:text-green-600"
                 >
                   Readmore <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>

@@ -12,7 +12,7 @@ function OurClientSection() {
           We have been working with some Fortune 500+ clients
         </p>
 
-        <div className="flex flex-wrap sm:flex-nowrap justify-center items-center space-x-[40px] md:space-x-[80px] 2xl:space-x-[140px] opacity-60">
+        <div className="flex flex-wrap sm:flex-nowrap justify-center items-center space-x-[40px] md:space-x-[80px] 2xl:space-x-[140px]">
           {clients.map((client, i) => (
             <div key={i} className="w-12 h-12 flex items-center justify-center">
               <img
