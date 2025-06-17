@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 function FooterDesignSection() {
   return (
-    <section className="wrapper h-[433px]">
+    <section className="wrapper min-h-[433px]">
       <div className="mx-auto flex gap-[50px] items-center">
         <div className="flex-1 max-w-[442px]">
           <Image

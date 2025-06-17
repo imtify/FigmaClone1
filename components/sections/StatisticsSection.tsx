@@ -26,7 +26,7 @@ function StatisticsSection() {
 
   return (
     <section className="bg-gray-50">
-      <div className="wrapper h-[288px] py-16 mx-auto flex gap-[72px] items-center">
+      <div className="wrapper min-h-[288px] py-16 mx-auto flex gap-[72px] items-center">
         <div className="flex-1">
           <h2 className="text-4xl leading-[44px] font-semibold text-gray-800 mb-4">
             Helping a local
