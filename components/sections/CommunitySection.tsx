@@ -28,7 +28,7 @@ function Card({
 
 function CommunitySection() {
   return (
-    <section className="wrapper h-[416px]">
+    <section className="wrapper min-h-[416px]">
       <div className="mx-auto text-center">
         <h2 className="text-4xl leading-[44px] font-semibold text-gray-800 mb-4">
           Manage your entire community
@@ -38,7 +38,7 @@ function CommunitySection() {
         <p className="text-gray-600 text-md pb-4">
           Who is Nextcent suitable for?
         </p>
-        <div className="flex justify-center gap-[128px]">
+        <div className="flex flex-col xl:flex-row justify-center gap-[128px]">
           <Card
             icon={<Users className="w-8 h-8 text-green-500" />}
             title={
