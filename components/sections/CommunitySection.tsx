@@ -1,30 +1,6 @@
 import React from "react";
-import { Users, Building, Globe } from "lucide-react";
-
-function Card({
-  icon,
-  title,
-  children,
-}: {
-  icon: React.ReactNode;
-  title: React.ReactNode;
-  children: React.ReactNode;
-}) {
-  return (
-    <div
-      className="max-w-[299px] h-[260px] gap-2 rounded-[8px] bg-white shadow flex flex-col items-center text-center p-6"
-      style={{ boxSizing: "border-box" }}
-    >
-      <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
-        {icon}
-      </div>
-      <h3 className="text-[28px] leading-[36px] font-bold text-gray-800 mb-4">
-        {title}
-      </h3>
-      <p className="text-gray-600 text-[14px] leading-[20px]">{children}</p>
-    </div>
-  );
-}
+import Image from "next/image";
+import FeatureCard from "@/components/ui/feature-card";
 
 function CommunitySection() {
   return (
@@ -39,8 +15,16 @@ function CommunitySection() {
           Who is Nextcent suitable for?
         </p>
         <div className="flex flex-col xl:flex-row justify-center gap-[128px]">
-          <Card
-            icon={<Users className="w-8 h-8 text-green-500" />}
+          <FeatureCard
+            icon={
+              <Image
+                src="/Membership.svg"
+                alt="Logo"
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            }
             title={
               <>
                 <span>Membership</span>
@@ -51,9 +35,17 @@ function CommunitySection() {
           >
             Our membership management software provides full automation of
             membership renewals and payments.
-          </Card>
-          <Card
-            icon={<Building className="w-8 h-8 text-green-500" />}
+          </FeatureCard>
+          <FeatureCard
+            icon={
+              <Image
+                src="/Building.svg"
+                alt="Logo"
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            }
             title={
               <>
                 <span>National</span>
@@ -64,9 +56,17 @@ function CommunitySection() {
           >
             Our membership management software provides full automation of
             membership renewals and payments.
-          </Card>
-          <Card
-            icon={<Globe className="w-8 h-8 text-green-500" />}
+          </FeatureCard>
+          <FeatureCard
+            icon={
+              <Image
+                src="/Group.svg"
+                alt="Logo"
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            }
             title={
               <>
                 <span>Clubs And</span>
@@ -77,7 +77,7 @@ function CommunitySection() {
           >
             Our membership management software provides full automation of
             membership renewals and payments.
-          </Card>
+          </FeatureCard>
         </div>
       </div>
     </section>
