@@ -10,7 +10,7 @@ function FinalCTASection() {
           <br />
           fringilla libero eu.
         </h1>
-        <Button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3">
+        <Button className="bg-green-500 hover:bg-green-600 w-[178px] text-white px-8 py-3">
           Get a Demo <ArrowRight className="w-4 h-4 ml-2" />
         </Button>
       </div>

@@ -15,7 +15,7 @@ function HeroSection() {
               Where to grow your business as a photographer: site or social
               media?
             </p>
-            <Button className="w-[128px] h-[52px] gap-[10px] p-[14px_32px] rounded-md bg-green-500 hover:bg-green-600 text-base text-white">
+            <Button className="w-[128px] gap-[10px] p-[14px_32px]       bg-green-500 hover:bg-green-600 text-base text-white">
               Register
             </Button>
           </div>

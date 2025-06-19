@@ -69,7 +69,7 @@ function Header() {
           >
             Login
           </Button>
-          <Button className="font-medium text-[14px] leading-5 tracking-normal bg-green-500 hover:bg-green-600 text-white px-[20.5px]">
+          <Button className="font-medium h-[40px] w-[91px] text-[14px] leading-5 tracking-normal bg-green-500 hover:bg-green-600 text-white px-[20.5px]">
             Sign up
           </Button>
         </div>
