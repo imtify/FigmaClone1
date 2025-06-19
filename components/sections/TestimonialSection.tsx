@@ -6,8 +6,8 @@ import { clients } from "@/app/data";
 function TestimonialSection() {
   return (
     <section className="bg-gray-50">
-      <div className="wrapper h-[390px] py-8 mx-auto flex gap-[78px] items-center">
-        <div className="flex-2">
+      <div className="wrapper w-full max-w-5xl mx-auto py-8 px-4 sm:px-8 flex flex-col md:flex-row gap-8 md:gap-[78px] items-center">
+        <div className="flex-2 mb-6 md:mb-0">
           <Image
             src="/Testimonial.png"
             alt="Testimonial"
@@ -17,7 +17,7 @@ function TestimonialSection() {
           />
         </div>
         <div className="flex-1">
-          <p className="text-md text-gray-600 mb-6">
+          <p className="w-full break-words overflow-x-hidden text-md text-gray-600 mb-6">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida
