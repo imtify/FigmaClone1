@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Users, Building, TrendingUp, Calendar } from "lucide-react";
 
 function StatisticsSection() {
@@ -26,7 +27,7 @@ function StatisticsSection() {
 
   return (
     <section className="bg-gray-50">
-      <div className="wrapper min-h-[288px] py-16 mx-auto flex gap-[72px] items-center">
+      <div className="wrapper min-h-[288px] py-16 mx-auto flex flex-col lg:flex-row gap-[72px] items-center">
         <div className="flex-1">
           <h2 className="text-4xl leading-[44px] font-semibold text-gray-800 mb-4">
             Helping a local
@@ -39,22 +40,54 @@ function StatisticsSection() {
         </div>
         <div className="flex-1 h-[160px] flex flex-wrap gap-6">
           <StatBox
-            icon={<Users className="w-8 h-8 text-green-500" />}
+            icon={
+              <Image
+                src="/Member.svg"
+                alt="Logo"
+                width={48}
+                height={48}
+                className="object-contain "
+              />
+            }
             value="2,245,341"
             label="Members"
           />
           <StatBox
-            icon={<Building className="w-8 h-8 text-green-500" />}
+            icon={
+              <Image
+                src="/Club.png"
+                alt="Logo"
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            }
             value="46,328"
             label="Clubs"
           />
           <StatBox
-            icon={<TrendingUp className="w-8 h-8 text-green-500" />}
+            icon={
+              <Image
+                src="/Booking.svg"
+                alt="Logo"
+                width={48}
+                height={48}
+                className="object-contain "
+              />
+            }
             value="828,867"
             label="Event Bookings"
           />
           <StatBox
-            icon={<Calendar className="w-8 h-8 text-green-500" />}
+            icon={
+              <Image
+                src="/Payment.svg"
+                alt="Logo"
+                width={48}
+                height={48}
+                className="object-contain "
+              />
+            }
             value="1,926,436"
             label="Payments"
           />

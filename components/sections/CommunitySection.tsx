@@ -65,6 +65,10 @@ function CommunitySection() {
                 width={48}
                 height={48}
                 className="object-contain"
+                style={{
+                  filter:
+                    "invert(49%) sepia(97%) saturate(484%) hue-rotate(77deg) brightness(92%) contrast(91%)",
+                }}
               />
             }
             title={
